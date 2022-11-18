@@ -1,0 +1,127 @@
+body {
+    background-color: #8ba1bb;
+    font-family: Arial;
+    min-width: 935px;
+}
+
+div.content {
+    background-color:white;
+    margin: 0px 20% 80px 20%;
+    padding: 30px;
+    box-shadow: 20px 20px 20px 20px darkslategrey;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 8px;
+    margin-top: 0px;
+}
+
+p.description {
+    display:inline-block;
+    font-size: 14px;
+    max-width: 400px;
+    text-align: center;
+}
+
+div.description {
+    text-align: center;
+}
+
+div.category {
+    margin-bottom: -10px;
+    text-align: center;
+}
+
+p.category {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: -20px;
+    padding: 8px 20px;
+    text-align: center;
+}
+
+div.separator {
+    background-color: black;
+    height: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+}
+
+img.info {
+    background-color: light-grey;
+    display: block;
+    object-fit: cover;
+    max-height: 900px;
+    width: 100%;
+}
+
+table.info {
+    background-color: #6c829dc0;
+    color: white;
+    height: 80px;
+    position: absolute; bottom:0;
+    width: 100%
+}
+
+table.info td {
+    font-size: 14px;
+    text-align: center;
+    vertical-align: top;
+}
+
+table.info th {
+    font-size: 16px;
+    padding-bottom: 0px;
+    vertical-align: bottom;
+}
+
+div.info {
+    position: relative;
+}
+
+div.col1 {
+    background-color: lightblue;
+    display:inline-block;
+}
+
+div.col2 {
+    float: right;
+}
+
+div.col {
+    margin-top: 20px;
+    width: 45%;
+}
+
+div.col h2 {
+    border-bottom: 3px solid #6c829d;
+    font-size: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+div.ingredients p {
+    border: 1px solid lightgrey;
+    font-size: 14px;
+    padding: 2px;
+    text-align: center;
+}
+
+table.instructions p.number {
+    background-color: #6c829d;
+    border-radius: 50%;
+    box-sizing: border-box;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    height: 25px;
+    padding-top: 4px;
+    text-align: center;
+    width: 25px;
+}
